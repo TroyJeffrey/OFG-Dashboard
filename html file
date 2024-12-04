@@ -6,6 +6,7 @@
     <title>Ocean Front Guru Dashboard</title>
 </head>
 <body>
+    <h1>Ocean Front Guru Dashboard</h1>
     <div class='tableauPlaceholder' id='viz1733336125138' style='position: relative'>
         <noscript>
             <a href='#'>
@@ -32,12 +33,12 @@
     <script type='text/javascript'>
         var divElement = document.getElementById('viz1733336125138');
         var vizElement = divElement.getElementsByTagName('object')[0];
-        if ( divElement.offsetWidth > 800 ) {
+        if (divElement.offsetWidth > 800) {
             vizElement.style.width = '100%';
             vizElement.style.maxWidth = '2050px';
             vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
             vizElement.style.maxHeight = '1107px';
-        } else if ( divElement.offsetWidth > 500 ) {
+        } else if (divElement.offsetWidth > 500) {
             vizElement.style.width = '100%';
             vizElement.style.maxWidth = '2050px';
             vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
