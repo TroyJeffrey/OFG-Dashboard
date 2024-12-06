@@ -4,20 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau Dashboard</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        .tableauPlaceholder {
-            width: 100%;
-            position: relative;
-        }
-    </style>
 </head>
 <body>
-    <div class='tableauPlaceholder' id='viz1733435938099' style='position: relative'>
+    <div class='tableauPlaceholder' id='viz1733444136445' style='position: relative'>
         <noscript>
             <a href='#'>
                 <img alt='Dashboard 1' src='https://public.tableau.com/static/images/OF/OFGDASHBOARD/Dashboard1/1_rss.png' style='border: none' />
@@ -41,17 +30,21 @@
         </object>
     </div>
     <script type='text/javascript'>
-        var divElement = document.getElementById('viz1733435938099');
+        var divElement = document.getElementById('viz1733444136445');
         var vizElement = divElement.getElementsByTagName('object')[0];
         if (divElement.offsetWidth > 800) {
-            vizElement.style.width = '100%';
-            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            vizElement.style.minWidth = '1200px';
+            vizElement.style.maxWidth = '100%';
+            vizElement.style.minHeight = '741px';
+            vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
         } else if (divElement.offsetWidth > 500) {
-            vizElement.style.width = '100%';
-            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            vizElement.style.minWidth = '1200px';
+            vizElement.style.maxWidth = '100%';
+            vizElement.style.minHeight = '741px';
+            vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
         } else {
             vizElement.style.width = '100%';
-            vizElement.style.height = '3227px';
+            vizElement.style.height = '3077px';
         }
         var scriptElement = document.createElement('script');
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
